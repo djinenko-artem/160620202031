@@ -7,5 +7,6 @@
 - run <code>composer install</code> 
 - run <code>php artisan key:gen</code> 
 - run <code>php artisan migrate --seed</code> 
-- run <code>npm install && npm run dev</code> 
+- run <code>npm install && npm run dev</code>
+- run <code>php artisan storage:link</code> 
 - check permissions to storage directory
