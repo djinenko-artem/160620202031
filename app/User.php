@@ -39,6 +39,6 @@ class User extends Authenticatable
 
     public function addresses()
     {
-        return $this->hasMany(Address::class)->orderBy('name', 'desc');
+        return $this->hasMany(Address::class)->orderBy('name', 'asc');
     }
 }
